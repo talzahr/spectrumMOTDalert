@@ -4,24 +4,25 @@
 // @version      0.1
 // @description  Utilizing Mutation Observer to see when a RSI (Star Citizen) Spectrum chat channel MOTD has been updated
 // @author       Talzahr
-// @match        https://robertsspaceindustries.com/spectrum/community/AVOCADO/lobby/1355241
+// @match        https://robertsspaceindustries.com/spectrum/community/SC/lobby/38230
 // @grant        none
 // ==/UserScript==
 // Change the match var above for the chat channel you want to use. Or use a wildcard '[..]/community/*' for all of them
+// By default it is set for #sc-testing-chat
 
 
 (function() {
     'use strict';
 
     // Using the mutation observer to check for HTML changes and alert
-    // For the console.log output, change #ETF-testing-chat for whatever Spectrum channel name you want
+    // For the console.log output, change #sc-testing-chat for whatever Spectrum channel name you want
     // This only appears in the console, but particularly useful if running more than one script for different channels
     function setupObserver(targetNode) {
         var config = { characterData: true, childList: true, subtree: true };
         var callback = function(mutationsList, observer) {
             for(var mutation of mutationsList) {
                 if (mutation.type == 'characterData') {
-                    console.log('#ETF-testing-chat MOTD has updated to:' + targetNode.textContent);
+                    console.log('#sc-testing-chat MOTD has updated to:' + targetNode.textContent);
                     // check out soundjay.com for more audio files. Use HTTPS for security reasons, or script could fail
                     var audio = new Audio('https://www.soundjay.com/buttons/sounds/button-2.mp3');
                     audio.play();
