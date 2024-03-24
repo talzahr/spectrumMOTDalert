@@ -1,4 +1,4 @@
-# spectrumMOTDalert
+# spectrum MOTD update alert
 Tampermonkey/Greasemonkey JS userscript for RSI Spectrum to alert user of a MOTD update
 
 This script is GNU GPL v3 licensed. Provide the LICENSE file if distributed elsewhere.
@@ -12,7 +12,7 @@ This script is GNU GPL v3 licensed. Provide the LICENSE file if distributed else
 
 === **OR** ===
 
-## Installation from URL
+## Installation from URL (easiest)
 - Install Tampermonkey (alternatively, Greasemonkey if using FF) to your browser via your browser's add-on/extensions repository.
 - In Tampermonkey toolbar dropdown, select **Dashboard**.
 - In the Dashboard, select **Utilities** at the upper right.
