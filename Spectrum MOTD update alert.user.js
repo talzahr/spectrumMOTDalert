@@ -1,3 +1,6 @@
+// Copyright (C) 2024  Talzahr
+// This software is under the GNU General Public License (GPL). See LICENSE text or https://www.gnu.org/licenses/
+//
 // ==UserScript==
 // @name         Spectrum MOTD update alert
 // @namespace    https://github.com/talzahr
