@@ -1,1 +1,45 @@
-{"options":{"check_for_updates":true,"user_modified":null,"comment":null,"compatopts_for_requires":true,"compat_wrappedjsobject":false,"compat_metadata":false,"compat_foreach":false,"compat_powerful_this":null,"sandbox":null,"noframes":null,"unwrap":null,"run_at":null,"tab_types":null,"override":{"use_includes":[],"orig_includes":[],"merge_includes":true,"use_matches":[],"orig_matches":["https://robertsspaceindustries.com/spectrum/community/AVOCADO/lobby/1355241"],"merge_matches":true,"use_excludes":[],"orig_excludes":[],"merge_excludes":true,"use_connects":[],"orig_connects":[],"merge_connects":true,"use_blockers":[],"orig_run_at":"document-idle","orig_noframes":null}},"settings":{"enabled":true,"position":2},"meta":{"name":"Spectrum MOTD update alert","uuid":"3a326d56-7aca-449c-9bd2-0dc70e3be3a1","modified":1711242681244}}
+{
+  "options": {
+    "check_for_updates": true,
+    "user_modified": null,
+    "comment": null,
+    "compatopts_for_requires": true,
+    "compat_wrappedjsobject": false,
+    "compat_metadata": false,
+    "compat_foreach": false,
+    "compat_powerful_this": null,
+    "sandbox": null,
+    "noframes": null,
+    "unwrap": null,
+    "run_at": null,
+    "tab_types": null,
+    "override": {
+      "use_includes": [],
+      "orig_includes": [],
+      "merge_includes": true,
+      "use_matches": [],
+      "orig_matches": [
+        "https://robertsspaceindustries.com/spectrum/community/SC/lobby/38230"
+      ],
+      "merge_matches": true,
+      "use_excludes": [],
+      "orig_excludes": [],
+      "merge_excludes": true,
+      "use_connects": [],
+      "orig_connects": [],
+      "merge_connects": true,
+      "use_blockers": [],
+      "orig_run_at": "document-idle",
+      "orig_noframes": null
+    }
+  },
+  "settings": {
+    "enabled": true,
+    "position": 2
+  },
+  "meta": {
+    "name": "Spectrum MOTD update alert",
+    "uuid": "3a326d56-7aca-449c-9bd2-0dc70e3be3a1",
+    "modified": 1711242681244
+  }
+}
