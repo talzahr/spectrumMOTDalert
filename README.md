@@ -30,4 +30,4 @@ This script is GNU GPL v3 licensed. Provide the LICENSE file if distributed else
 - Click on the Tampermonkey icon in the browser toolbar and ensure the slider is enabled next to the **Spectrum MOTD update alert** script.
   - If you have desktop notifications enabled in your browser, then you'll see those too. Modify the `var notification` lines to your perference.
 
--*Talzar*
+-*Talzahr*
